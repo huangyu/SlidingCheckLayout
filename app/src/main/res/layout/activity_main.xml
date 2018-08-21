@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huangyu.library.SlidingCheckLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scl"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rlv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</com.huangyu.library.SlidingCheckLayout>
