@@ -97,4 +97,4 @@
 -keep class android.support.v7.** { *; }
 -keep public class * extends android.support.v7.**
 
--keep class com.huangyu.library.SlidingCheckLayout
+-keep class com.huangyu.library.**{*;}
