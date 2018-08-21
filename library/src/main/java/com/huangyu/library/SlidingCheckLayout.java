@@ -203,14 +203,12 @@ public class SlidingCheckLayout extends FrameLayout {
             case MotionEvent.ACTION_DOWN:
                 break;
             case MotionEvent.ACTION_MOVE:
-                // 在顶部或者底部触发自动滑动
-                if (inTopSpot || inBottomSpot) {
-                    processAutoScroll(ev);
-                }
-                // 否则处理滑动事件
-                else {
+                if (!inTopSpot && !inBottomSpot) {
+                    // 否则处理滑动事件
                     updateSelectedRange(targetRlv, ev);
                 }
+                // 在顶部或者底部触发自动滑动
+                processAutoScroll(ev);
                 break;
             case MotionEvent.ACTION_UP:
                 resetParams();
