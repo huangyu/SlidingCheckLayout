@@ -23,6 +23,7 @@ dependencies {
 ```
 
 使用方法：
+
 在layout的xml中，在RecyclerView外层嵌套SlidingCheckLayout作为唯一子节点。
 
 在App中实现SlidingCheckLayout.OnSlidingCheckListener接口即可，具体可参考Demo工程。
