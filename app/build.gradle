@@ -20,7 +20,9 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation project(':library')
+//    implementation project(':library')
+    implementation 'com.github.huangyu0522:SlidingCheckLayout:1.0.2'
+
     implementation 'com.android.support:appcompat-v7:27.1.1'
 
     testImplementation 'junit:junit:4.12'
