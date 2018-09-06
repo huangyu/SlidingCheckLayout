@@ -1,6 +1,8 @@
 # SlidingCheckLayout
 滑动选择布局，用于嵌套RecyclerView实现滑动选择功能
 
+文章：https://huangyu.github.io/archives/2720d64c.html
+
 引用方式：[![](https://jitpack.io/v/huangyu0522/SlidingCheckLayout.svg)](https://jitpack.io/#huangyu0522/SlidingCheckLayout)
 
 在根目录：
