@@ -274,11 +274,7 @@ public class SlidingCheckLayout extends FrameLayout {
         newEnd = Math.max(startPos, endPos);
 
         if (lastStartPos == RecyclerView.NO_POSITION || lastEndPos == RecyclerView.NO_POSITION) {
-            if (newEnd - newStart == 1) {
-                onSlidingCheckListener.onSlidingCheckPos(newStart, newStart);
-            } else {
-                onSlidingCheckListener.onSlidingCheckPos(newStart, newEnd);
-            }
+            onSlidingCheckListener.onSlidingCheckPos(newStart, newEnd);
         } else {
             if (newStart > lastStartPos) {
                 onSlidingCheckListener.onSlidingCheckPos(lastStartPos, newStart - 1);
