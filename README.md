@@ -20,9 +20,10 @@ allprojects {
 ```
 dependencies {
     ...
-    implementation 'com.github.huangyu0522:SlidingCheckLayout:1.0.2'
+    implementation 'com.github.huangyu0522:SlidingCheckLayout:x.x.x'
 }
 ```
+最新版本请查看release。
 
 使用方法：
 
